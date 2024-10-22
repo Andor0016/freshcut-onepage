@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: var(--dark-blue);
+    background-color: #0C243C;
 }
 
 .footer{
@@ -24,6 +24,6 @@ body{
 }
 
 .footer-content > p{
-    color: var(--light-gray);
+    color: #C9D1D5;
     margin: 1rem;
 }
