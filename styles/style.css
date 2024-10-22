@@ -1,0 +1,29 @@
+:root{
+    --black: #1E1C1E;
+    --dark-blue: #0C243C;
+    --ligth-blue: #55C2C3;
+    --dark-gray: #7E8C9C;
+    --light-gray: #C9D1D5;
+    --white: #F3F5F0
+}
+
+body{
+    background-color: var(--dark-blue);
+}
+
+.footer{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.footer-logo{
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem;
+}
+
+.footer-content > p{
+    color: var(--light-gray);
+    margin: 1rem;
+}
