@@ -1,8 +1,25 @@
 {
   "contactHeader": "Elérhetőség",
+  "opening": "Nyitvatartás:",
+  "monday": "Hétfő",
+  "tuesday": "Kedd",
+  "wednesday": "Szerda",
+  "thursday": "Csütörtök",
+  "friday": "Péntek",
+  "saturday": "Szombat",
+  "sunday": "Vasárnap",
+  "closed": "Zárva",
   "addressFirstLine": "23320 Csóka",
   "addressSecondLine": "Vuk karadžić utca 1",
   "contentLanguage": "Nyelv:",
   "huHU": "Magyar nyelv",
-  "srSR": "Szerb nyelv"
+  "srSR": "Szerb nyelv",
+  "footerCallAlt": "Hívás",
+  "footerCallTitle": "Foglalj időpontot hívásban! 06XXXXXXXX",
+  "footerMailAlt": "E-mail",
+  "footerMailTitle": "Keress E-mailben!",
+  "footerFacebookAlt": "Facebook",
+  "footerFacebookTitle": "Keress Facebookon!",
+  "footerInstagramAlt": "Instagram",
+  "footerInstagramTitle": "Keress Instagramon!"
 }

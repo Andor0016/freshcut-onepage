@@ -1,8 +1,25 @@
 {
   "contactHeader": "Kontakt",
+  "opening": "Radno vreme:",
+  "monday": "Ponedeljak",
+  "tuesday": "Utorak",
+  "wednesday": "Sreda",
+  "thursday": "Četvrtak",
+  "friday": "Petak",
+  "saturday": "Subota",
+  "sunday": "Nedelja",
+  "closed": "Zatvoreno",
   "addressFirstLine": "Čoka, 23320",
   "addressSecondLine": "Vuk karadžić 1",
   "contentLanguage": "Jezik:",
   "huHU": "Mađarski jezik",
-  "srSR": "Srpski jezik"
+  "srSR": "Srpski jezik",
+  "footerCallAlt": "Poziv",
+  "footerCallTitle": "Zakaži termin! 06XXXXXXXX",
+  "footerMailAlt": "E-mail",
+  "footerMailTitle": "Traži me preko E-mail!",
+  "footerFacebookAlt": "Facebook",
+  "footerFacebookTitle": "Traži me na Facebookon!",
+  "footerInstagramAlt": "Instagram",
+  "footerInstagramTitle": "Traži me na  Instagramon!"
 }
