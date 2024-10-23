@@ -1,32 +1,94 @@
 <!doctype html>
-<html lang="srb">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Fresh cut frizerski salon" />
-        <meta
+<html lang="hu-HU">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Fresh cut"/>
+    <meta
             name="keywords"
-            content="Fresh cut, Fresh, Cut, Barber, Ivan, Ilijin, Ivan Ilijin"
-        />
-        <meta name="author" content="Andor Balo" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Fresh Cut</title>
-        <link rel="stylesheet" href="/styles/style.css">
-        <link rel="icon" type="image/x-icon" href="/resources/favicon.jpg">
-    </head>
-    <body>
-        <div class="nav">
-            <div class="nav-logo">
+            content="Fresh cut, Fresh, Cut, Barber, Ivan, Ilijin, Ivan Ilijin, Ilijin Ivan"
+    />
+    <meta name="author" content="Andor Balo"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Fresh Cut</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./resources/favicon.png">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+<div class="nav">
+    <div class="nav-logo">
+        <img src="./resources/logos/fresh_cut-logo.png" alt="Fresh cut logo" title="Fresh cut"/>
+    </div>
+    <div class="nav-menu">
 
+    </div>
+</div>
+<div class="content">
+    <div class="contact" id="contact">
+        <h1 class="content-header" id="contact-header">Elérhetőség</h1>
+        <div class="flexbox contact-items">
+            <iframe class="maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2774.5588380315726!2d20.1546176768712!3d45.940116471085844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4744c10003a19e1f%3A0x26296325d1a4d646!2sFrizerski%20salon%20%22Fresh%20Cut%22!5e0!3m2!1shu!2shu!4v1729687705128!5m2!1shu!2shu"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <table class="" id="open-hours">
+                <caption>Nyitvatartás:</caption>
+                <tr>
+                   <td id="monday">Hétfő</td>
+                   <td class="closed">Zárva</td>
+                </tr>
+                <tr>
+                    <td id="tuesday">Kedd</td>
+                    <td>8:00 - 12:00 & 16:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td id="wednesday">Szerda</td>
+                    <td>8:00 - 12:00 & 16:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td id="thursday">Csütörtök</td>
+                    <td>8:00 - 12:00 & 16:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td id="friday">Péntek</td>
+                    <td>8:00 - 12:00 & 16:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td id="saturday">Szombat</td>
+                    <td>8:00 - 12:00 & 16:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td id="sunday">Vasárnap</td>
+                    <td class="closed">Zárva</td>
+                </tr>
+            </table>
+            <div class="contact-information" id="contact-information">
+                <p id="address-first-line"> 23320, Csóka</p>
+                <p id="address-second-line"> Vuk Karadžić utca 1</p>
+                <p id="mail">xxxx@xxx.com</p>
+                <p id="number">06X XXXXXXX</p>
+                <p id="cont-insta">@__fresh_cut_</p>
+                <p id="cont-fb">Fresh cut</p>
             </div>
-            <div class="nav-menu">
-
-            </div>
         </div>
-        <div class="content">
-
-        </div>
-        <div class="footer">
-
-        </div>
-    </body>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-language-change">
+        <label for="content-language" id="content-language-label">Nyelv:</label>
+        <select class="footer-selector" id="content-language" name="cars">
+            <option value="hu-HU">Magyar nyelv</option>
+            <option value="sr-SR">Szerb nyelv</option>
+        </select>
+    </div>
+    <div class="footer-logos">
+        <img src="./resources/logos/phone-logo.png" alt="Hívás" title="Foglalj időpontot hívásban! 06XXXXXXXX" class="footer-logo" id="footer-call-us"/>
+        <img src="./resources/logos/mail-logo.png" alt="E-mail" title="" class="footer-logo" id="footer-mail-us"/>
+        <img src="./resources/logos/facebook-logo.png" alt="Facebook" title="Keress facebookon" class="footer-logo" id="footer-facebook"/>
+        <img src="./resources/logos/instagram-logo.png" alt="Instagram" title="Keress instagramon" class="footer-logo" id="footer-instagram"/>
+    </div>
+    <div class="footer-content">
+        <p>&copy 2024 Fresh Cut</p>
+    </div>
+</div>
+</body>
 </html>
