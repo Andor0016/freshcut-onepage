@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
             currentLanguage = targetLanguage;
             let filePath = '';
             if(targetLanguage === 'hu-HU'){
-                filePath = '../resources/i18n/hu-HU.json';
+                filePath = './resources/i18n/hu-HU.json';
             }
             else if(targetLanguage === 'sr-SR'){
-                filePath = '../resources/i18n/sr-SR.json';
+                filePath = './resources/i18n/sr-SR.json';
             }
 
             fetch(filePath)
